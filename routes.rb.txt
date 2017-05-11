@@ -1,0 +1,11 @@
+Rails.application.routes.draw do
+  get 'aaa_core/index'
+
+  get 'aaa_core/events'
+
+  get 'aaa_core/shop'
+
+  get 'aaa_core/discussion'
+
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end
