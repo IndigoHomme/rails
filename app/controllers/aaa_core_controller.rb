@@ -14,4 +14,5 @@ class AaaCoreController < ApplicationController
   def discussion
     @title = "Discussion"
   end
+  
 end
