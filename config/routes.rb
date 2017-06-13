@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
   
   match "/index" => "aaa_core#index", via: :get
-
-  match "/events" => "aaa_core#events", via: :get
+  
 
   match "/shop" => "aaa_core#shop", via: :get
 
